@@ -12,13 +12,19 @@ nav {
 	top: 10px;
 	width: 90%;
 	margin: 10px auto;
-	padding: 5px;
 	text-align: center;
 	font-size: 24;
 }
 
-span {
-	margin: 10px;
+.nav {
+	display: inline-block;
+	padding: 5px 20px;
+	text-align: center;
+	transition: background-color 0.3s ease;
+}
+
+.nav:hover {
+	background-color: #00000033;
 }
 
 main {
@@ -50,17 +56,8 @@ a {
 	text-decoration: none;
 }
 
-hr {
-	border: 1px solid white;
-}
-
 h1 {
 	margin: 0;
-	text-decoration: underline;
-}
-
-h2 {
-	margin: 10px 0;
 	text-decoration: underline;
 }
 
@@ -72,8 +69,14 @@ table{
 
 tr {
 	border-bottom: 1px solid white;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
 }
 
+tr:hover {
+	background-color: #00000033;
+}	
+	
 tr:last-child {
 	border-bottom: none;
 }
