@@ -1,3 +1,9 @@
+body {
+	background-color: #A41C30;
+	font-family: lexend;
+}
+
 nav {
-	border-radius: auto
+	background-color: #74131D;
+	border-radius: 20px;
 }
