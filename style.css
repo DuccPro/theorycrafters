@@ -1,0 +1,86 @@
+body {
+	background-color: #A41C30;
+	font-family: lexend, sans-serif;
+	color: white
+}
+
+nav {
+	box-sizing: border-box;
+	background-color: #74131D;
+	border-radius: 20px;
+	position: sticky;
+	top: 10px;
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 24;
+}
+
+.nav {
+	display: inline-block;
+	padding: 5px 20px;
+	text-align: center;
+	transition: background-color 0.3s ease;
+}
+
+.nav:hover {
+	background-color: #00000033;
+}
+
+main {
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	gap: 10px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+section {
+	background-color: #74131D;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+article {
+	box-sizing: border-box;
+	background-color: #74131D;
+	border-radius: 20px;
+	padding: 20px;
+	width: 90%;
+	margin: 0px auto;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0;
+	text-decoration: underline;
+}
+
+table{
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid white;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+tr:hover {
+	background-color: #00000033;
+}	
+	
+tr:last-child {
+	border-bottom: none;
+}
+
+th, td {
+	padding: 5px;
+}
